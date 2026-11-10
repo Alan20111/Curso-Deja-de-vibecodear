@@ -49,6 +49,8 @@ El taller sigue cuatro capas de contexto, de la más profunda a la más visible.
 | [4. Capa 4 · Diseño](practicas/04-capa4-diseno.md) | Skill y subagente | Tu `DESIGN.md` aplicado |
 | [5. Ensamble y reto final](practicas/05-ensamble.md) | Orquestación | "Entregar una tarea" probada |
 
+**Guía paso a paso:** [PROMPTS.md](PROMPTS.md) trae todo el taller, en orden, en prompts listos para copiar y pegar.
+
 **Todo viene prehecho.** La app ya funciona y en `proyecto/plantillas/` están las skills, los subagentes, el MCP y el diseño listos para activar: solo llenas los huecos marcados con ✏️. Mira [proyecto/plantillas/LEEME.md](proyecto/plantillas/LEEME.md).
 
 **¿Te atrasaste?** La carpeta `kit/` trae resuelta cada capa. Las instrucciones para copiarla están en [kit/README.md](kit/README.md).
@@ -58,6 +60,7 @@ El taller sigue cuatro capas de contexto, de la más profunda a la más visible.
 ## Qué hay en este repositorio
 
 ```
+PROMPTS.md               ← todo el taller en prompts para copiar y pegar
 proyecto/                ← la carpeta que abres en Antigravity
   index.html             ← la app (ábrela con doble clic)
   css/estilos.css
