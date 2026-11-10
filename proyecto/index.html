@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Classroom</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Classroom</h1>
+    <label>
+      Soy:
+      <select id="usuario-actual"></select>
+    </label>
+  </header>
+
+  <main id="contenido">
+    <!-- Aquí el agente construye las pantallas del gestor -->
+    <p>Escoge un usuario arriba. Si no aparece ninguno, carga los datos de ejemplo.</p>
+  </main>
+
+  <footer>
+    <button id="cargar-ejemplo">Cargar datos de ejemplo</button>
+    <button id="borrar-todo">Borrar todo</button>
+  </footer>
+
+  <script src="js/datos.js"></script>
+  <script src="js/datos-ejemplo.js"></script>
+  <script src="js/reglas.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

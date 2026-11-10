@@ -1,0 +1,83 @@
+/* estilos.css — diseño mínimo.
+   ✏️ Capa 4: la skill nueva-pantalla reemplaza estos valores por los tokens de tu DESIGN.md. */
+
+:root {
+  --color-fondo: #fafafa;
+  --color-superficie: #ffffff;
+  --color-texto: #1a1a1a;
+  --color-suave: #6b6b6b;
+  --color-borde: #e4e4e0;
+  --color-acento: #2f5bea;
+  --color-error: #c2410c;
+  --espacio: 16px;
+  --radio: 8px;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: calc(var(--espacio) * 1.5);
+  color: var(--color-texto);
+  background: var(--color-fondo);
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--espacio);
+}
+
+footer {
+  margin-top: calc(var(--espacio) * 2);
+  justify-content: flex-start;
+}
+
+.tarjetas {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: calc(var(--espacio) / 2);
+}
+
+.tarjeta {
+  background: var(--color-superficie);
+  border: 1px solid var(--color-borde);
+  border-radius: var(--radio);
+  padding: var(--espacio);
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(var(--espacio) / 2);
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: calc(var(--espacio) / 2);
+  align-items: center;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  padding: 6px 12px;
+  border-radius: var(--radio);
+  border: 1px solid var(--color-borde);
+}
+
+button {
+  background: var(--color-acento);
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  color: var(--color-error);
+  width: 100%;
+  margin: 0;
+}
