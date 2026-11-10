@@ -2,7 +2,7 @@
 
 **La idea:** la IA no programa bien ni mal: programa como le enseñas. La misma función pedida en tres conversaciones sale con tres estilos.
 
-Piezas que usas: una **skill** (`nueva-funcion`, tu forma de agregar funciones) y un **MCP** (tus contactos: Context7, para leer documentación actual).
+Pieza que usas: una **skill** (`nueva-funcion`), tu forma de agregar funciones guardada una vez, con tu estilo.
 
 ## Trabajo · Tu turno 3
 
@@ -18,27 +18,18 @@ Copia plantillas/skills/nueva-funcion a .agents/skills/nueva-funcion
 
 Llena el paso ✏️ con una regla de tu estilo.
 
-### 3. Conecta Context7
+### 3. Pide: marca las entregas tarde
 
 ```
-Copia plantillas/mcp_config.json a .agents/mcp_config.json
+/nueva-funcion completa esTarde en js/reglas.js
 ```
 
-O desde la app: **Customizations → Installed → Add MCP Server (+)** y busca Context7.
+### 4. Compruébalo
 
-### 4. Pide: marca las entregas tarde
-
-```
-/nueva-funcion completa esTarde en js/reglas.js; usa context7 para revisar la documentación de MDN sobre fechas en JavaScript
-```
+- Abre `pruebas.html`: debe haber una prueba nueva en verde.
+- En `index.html`, como alumno, entrega una tarea vencida: debe decir "entregada tarde".
 
 ## Comprobación
 
-- En la conversación aparece la llamada a Context7, y te pidió permiso antes.
-- En `index.html`, como alumno, las entregas después de la fecha dicen "entregada tarde".
-- `pruebas.html` tiene una prueba nueva en verde.
-- Intercambia con tu pareja: ¿adivinas sus reglas de estilo?
-
-## Seguridad con MCP
-
-Un MCP puede leer o borrar cosas reales. Revisa cada permiso, nunca pegues claves en el chat y no actives MCPs "por si acaso".
+- El código respeta tus 3 reglas de estilo. Intercambia con tu pareja: ¿adivinas sus reglas?
+- El agente agregó la prueba sin que se la pidieras, porque la skill lo dice.

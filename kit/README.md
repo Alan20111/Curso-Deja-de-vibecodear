@@ -6,7 +6,7 @@ Cada carpeta tiene lo que deja terminado esa capa, con la misma estructura que `
 |---------|----------|
 | `capa1/` | `AGENTS.md` con reglas, `datos/esquema.md` y la skill `disenar-esquema` |
 | `capa2/` | El subagente `revisor-seguridad` y `js/reglas.js` con las reglas de la capa 2 |
-| `capa3/` | `AGENTS.md` con estilo, la skill `nueva-funcion`, Context7 (`mcp_config.json`) y `js/reglas.js` con `esTarde` |
+| `capa3/` | `AGENTS.md` con estilo, la skill `nueva-funcion` y `js/reglas.js` con `esTarde` |
 | `capa4/` | `DESIGN.md` de ejemplo y la skill `nueva-pantalla` |
 | `ensamble/` | El subagente `probador` y la skill `entregar-funcion` |
 | `opencode/` | Lo mismo para el plan B con OpenCode |

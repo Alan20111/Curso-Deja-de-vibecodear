@@ -43,9 +43,9 @@ El taller sigue cuatro capas de contexto, de la más profunda a la más visible.
 |----------|---------------|-----------|
 | [0. Preparación](practicas/00-preparacion.md) | — | Agente respondiendo |
 | Cómo piensa la IA y por qué alucina | — | (explicación) |
-| [1. Capa 1 · Datos](practicas/01-capa1-datos.md) | `AGENTS.md`, skill y MCP | `datos/esquema.md` |
+| [1. Capa 1 · Datos](practicas/01-capa1-datos.md) | `AGENTS.md`, skill y MCP (demo) | `datos/esquema.md` |
 | [2. Capa 2 · Lógica de negocio](practicas/02-capa2-logica.md) | Subagente | Las reglas en `js/reglas.js` |
-| [3. Capa 3 · Código con tu estilo](practicas/03-capa3-codigo.md) | Skill y MCP | `nueva-funcion` y Context7 |
+| [3. Capa 3 · Código con tu estilo](practicas/03-capa3-codigo.md) | Skill | `nueva-funcion` y `esTarde` |
 | [4. Capa 4 · Diseño](practicas/04-capa4-diseno.md) | Skill y subagente | Tu `DESIGN.md` aplicado |
 | [5. Ensamble y reto final](practicas/05-ensamble.md) | Orquestación | "Entregar una tarea" probada |
 
@@ -86,7 +86,7 @@ recursos/
 
 - Antigravity: [descarga](https://antigravity.google/download) · [documentación](https://antigravity.google/docs/overview) · [skills](https://antigravity.google/docs/skills) · [MCP](https://antigravity.google/docs/mcp) · [subagentes](https://antigravity.google/docs/subagents) · [reglas y AGENTS.md](https://antigravity.google/docs/rules)
 - Estándares abiertos: [AGENTS.md](https://agents.md/) · [Agent Skills](https://agentskills.io/) · [Model Context Protocol](https://modelcontextprotocol.io/)
-- MCP que usamos: [Context7](https://context7.com/) (documentación actualizada) y [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) (demo del instructor)
+- MCP del taller: [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp), el MCP del navegador (lo muestra el instructor en la capa 1)
 - Diseño: [Refero Styles](https://styles.refero.design)
 - Plan B: [OpenCode](https://opencode.ai/download)
 

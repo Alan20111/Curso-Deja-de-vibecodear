@@ -20,7 +20,6 @@
 - [Refero Styles](https://styles.refero.design): estilos de sitios reales con su DESIGN.md.
 
 ## MCP
-- [Context7](https://context7.com/): documentación actualizada de librerías para tu agente.
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp): deja que el agente abra tu página y revise el navegador (la demo de la capa 1).
 
 ## JavaScript

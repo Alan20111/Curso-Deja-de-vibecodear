@@ -18,13 +18,11 @@ OpenCode es gratuito, de código abierto y ofrece modelos gratis por tiempo limi
 |-------|-------------|----------|
 | Instrucciones | `AGENTS.md` | `AGENTS.md` (igual) |
 | Skills | `.agents/skills/` | `.agents/skills/` (igual) |
-| MCP | `.agents/mcp_config.json` | `opencode.jsonc` en la raíz de `proyecto/` |
 | Subagentes | `.agents/agents/<nombre>.md` | `.opencode/agents/<nombre>.md` |
 
 ## Qué copiar en lugar de los archivos de Antigravity
 
 - **Capa 2:** en vez de `.agents/agents/revisor-seguridad.md`, copia `kit/opencode/agents/revisor-seguridad.md` a `proyecto/.opencode/agents/`.
-- **Capa 3:** en vez de `.agents/mcp_config.json`, copia `kit/opencode/opencode.jsonc` a `proyecto/`.
 - **Ensamble:** en vez de `.agents/agents/probador.md`, copia `kit/opencode/agents/probador.md` a `proyecto/.opencode/agents/`.
 
 Todo lo demás (`AGENTS.md`, `datos/esquema.md`, `DESIGN.md` y las skills) se copia igual que en [kit/README.md](../kit/README.md).

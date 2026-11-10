@@ -40,7 +40,7 @@ Hoy un alumno puede entregar la misma tarea las veces que quiera, porque `puedeE
 
 ## Comprobación
 
-Señalen en su pantalla **qué pieza hizo cada cosa**: `AGENTS.md`, `datos/esquema.md`, la skill `entregar-funcion`, la skill `nueva-funcion`, los subagentes y el MCP.
+Señalen en su pantalla **qué pieza hizo cada cosa**: `AGENTS.md`, `datos/esquema.md`, la skill `entregar-funcion`, la skill `nueva-funcion` y los subagentes. El MCP lo vieron en la demo del navegador de la capa 1.
 
 ## Para llevarte a casa
 

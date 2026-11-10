@@ -13,7 +13,6 @@ Copia plantillas/skills/disenar-esquema a .agents/skills/disenar-esquema
 | `skills/disenar-esquema/` | `.agents/skills/disenar-esquema/` | 1 · Datos | La descripción |
 | `agents/revisor-seguridad.md` | `.agents/agents/revisor-seguridad.md` | 2 · Lógica | La descripción |
 | `skills/nueva-funcion/` | `.agents/skills/nueva-funcion/` | 3 · Código | Un paso con tu estilo |
-| `mcp_config.json` | `.agents/mcp_config.json` | 3 · Código | Nada |
 | `DESIGN.md` | `DESIGN.md` (raíz de `proyecto/`) | 4 · Diseño | Nada, o cámbialo por uno de Refero |
 | `skills/nueva-pantalla/` | `.agents/skills/nueva-pantalla/` | 4 · Diseño | La descripción |
 | `agents/probador.md` | `.agents/agents/probador.md` | Ensamble | Nada |
