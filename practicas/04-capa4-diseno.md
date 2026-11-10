@@ -2,7 +2,7 @@
 
 **La idea:** la misma idea del archivo de reglas, aplicada al diseño. Un `DESIGN.md` le dice al agente los colores, la tipografía, el espaciado y los componentes. Sin él, todas las páginas hechas con IA se parecen.
 
-Piezas que usas: el archivo `DESIGN.md`, la skill `nueva-pantalla` y el subagente `browser`, que viene de fábrica en Antigravity.
+Piezas que usas: el archivo `DESIGN.md`, la skill `nueva-pantalla` y el subagente `browser`, que viene de fábrica en Antigravity y se usa con `/browser`.
 
 ## Trabajo · Tu turno 4
 
@@ -32,11 +32,13 @@ La estructura ya existe (tarjetas, listas, formularios y botones): la skill solo
 
 ### 4. Que el subagente browser la compare
 
+Abre Chrome 144 o más nuevo, entra a `chrome://inspect/#remote-debugging` y activa «Allow remote debugging for this browser instance».
+
 ```
-Usa el subagente browser para abrir index.html, cargar los datos de ejemplo, entrar como Ana y comparar la pantalla con DESIGN.md
+/browser abre index.html, carga los datos de ejemplo, entra como Ana y compara la pantalla con DESIGN.md
 ```
 
-Necesita Chrome. Sin Chrome, abre tú `index.html` y compárala.
+Sin Chrome, abre tú `index.html` y compárala.
 
 ## Comprobación
 

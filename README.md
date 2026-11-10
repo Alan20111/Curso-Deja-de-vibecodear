@@ -29,7 +29,7 @@ Solo necesitas una laptop, Chrome y una cuenta personal de Google. No hay que in
 |-------|--------|-------------------|------------|
 | **Instrucciones** | Las reglas del proyecto, que el agente lee en cada mensaje | El reglamento del salón: aplica en cada clase | `AGENTS.md` |
 | **Skill** | Un procedimiento que el agente abre solo cuando la tarea lo pide | Tu formulario: lo sacas solo cuando toca ese tema | `.agents/skills/<nombre>/SKILL.md` |
-| **MCP** | Un conector a algo fuera de tu carpeta: documentación, el navegador, una base de datos | Tus contactos: no sabes todo, pero sabes a quién preguntar | `.agents/mcp_config.json` |
+| **MCP** | Un conector a algo fuera de tu carpeta: documentación, el navegador, una base de datos | Tus contactos: no sabes todo, pero sabes a quién preguntar | Se configura en Antigravity (Customizations → MCP). En el taller solo se ve en la demo del instructor. |
 | **Subagente** | Otro agente con su propia conversación | El compañero del equipo que hace su parte en su libreta y te entrega el resultado | `.agents/agents/<nombre>.md` |
 | **Orquestación** | Quién hace qué y en qué orden | El líder del equipo, que reparte y junta | Tu prompt, o una skill que lo guarda |
 
@@ -51,7 +51,7 @@ El taller sigue cuatro capas de contexto, de la más profunda a la más visible.
 
 **Guía paso a paso:** [PROMPTS.md](PROMPTS.md) trae todo el taller, en orden, en prompts listos para copiar y pegar.
 
-**Todo viene prehecho.** La app ya funciona y en `proyecto/plantillas/` están las skills, los subagentes, el MCP y el diseño listos para activar: solo llenas los huecos marcados con ✏️. Mira [proyecto/plantillas/LEEME.md](proyecto/plantillas/LEEME.md).
+**Todo viene prehecho.** La app ya funciona y en `proyecto/plantillas/` están las skills, los subagentes y el diseño listos para activar: solo llenas los huecos marcados con ✏️. Mira [proyecto/plantillas/LEEME.md](proyecto/plantillas/LEEME.md).
 
 **¿Te atrasaste?** La carpeta `kit/` trae resuelta cada capa. Las instrucciones para copiarla están en [kit/README.md](kit/README.md).
 
@@ -71,7 +71,7 @@ proyecto/                ← la carpeta que abres en Antigravity
   pruebas.html           ← ábrelo para correr las pruebas de js/pruebas.js
   AGENTS.md              ← las reglas, con huecos ✏️ por llenar
   datos/esquema.md       ← el esquema, con huecos ✏️ por llenar
-  plantillas/            ← skills, subagentes, MCP y diseño listos para activar
+  plantillas/            ← skills, subagentes y diseño listos para activar
   .agents/skills/        ← aquí van tus skills
   .agents/agents/        ← aquí van tus subagentes
 practicas/               ← los pasos de cada práctica

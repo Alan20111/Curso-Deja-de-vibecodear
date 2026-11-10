@@ -24,4 +24,4 @@ Solo HTML, CSS y JavaScript, sin librerías ni instalaciones. Los datos se guard
 
 ## Esta es la carpeta que abres en Antigravity
 
-Todo lo que el agente necesita (reglas, skills, subagentes y MCP) vive aquí, en `AGENTS.md` y `.agents/`.
+Las reglas, las skills y los subagentes viven aquí, en `AGENTS.md` y `.agents/`. El MCP no: se configura en Antigravity (Customizations → MCP), y en el taller solo se ve en la demo del instructor.

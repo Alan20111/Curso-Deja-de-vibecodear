@@ -12,6 +12,7 @@ const DATOS_EJEMPLO = {
     { id: 1, titulo: 'Diagrama entidad-relación', fechaLimite: '2026-11-20', creadaPor: 1 },
     { id: 2, titulo: 'Práctica de SQL', fechaLimite: '20 de noviembre', creadaPor: 1 },
     { id: 3, titulo: 'Ensayo de ética en IA', fechaLimite: '2026-11-25', creadaPor: 3 },
+    { id: 4, titulo: 'Lectura de normalización', fechaLimite: '2026-01-15', creadaPor: 1 },
   ],
   entregas: [
     { id: 1, tareaId: 1, alumnoId: 2, contenido: 'diagrama-ana.pdf', entregadaEn: '2026-11-18T10:00', calificacion: 95 },

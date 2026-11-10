@@ -147,10 +147,10 @@ description: Rediseña o crea una pantalla de Classroom siguiendo DESIGN.md. Ús
 
 **Prompt 18** · *(Recomendado usar Gemini 3.8 Flash en nivel High)*
 
-Antes de pegarlo, deja Google Chrome abierto, entra a `chrome://inspect/#remote-debugging` y activa **Allow remote debugging for this browser instance**.
+Abre Chrome 144 o más nuevo, entra a `chrome://inspect/#remote-debugging` y activa «Allow remote debugging for this browser instance».
 
 ```
-/browser abre el archivo index.html de este proyecto, da clic en "Cargar datos de ejemplo", escoge a Ana López en "Soy" y compara la pantalla con DESIGN.md
+/browser abre index.html, carga los datos de ejemplo, entra como Ana y compara la pantalla con DESIGN.md
 ```
 
 ---
